@@ -1,0 +1,66 @@
+{
+  "wintermute_market_making": {
+    "entity": "Wintermute Market Making",
+    "addresses": [
+      "5sTQ5ih7xtctBhMXHr3f1aWdaXazWrWfoehqWdqWnTFP",
+      "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa"
+    ],
+    "holdings_usd": {
+      "JUP": 1004199, "BONK": 276125, "WIF": 248665, "PYTH": 179651,
+      "W": 568992, "JTO": 21234, "RNDR": 187337, "PENGU": 267172
+    },
+    "total_usd": 2753375
+  },
+  "wintermute_otc": {
+    "entity": "Wintermute (OTC/Holdings)",
+    "addresses": ["BMnT51N4iSNhWU5PyFFgWwFvN1jgaiiDr9ZHgnkm3iLJ"],
+    "holdings_usd": {
+      "JUP": 113144, "BONK": 108750, "WIF": 118377, "PYTH": 37253,
+      "ORCA": 123603, "RNDR": 18082, "PENGU": 84274
+    },
+    "total_usd": 603484
+  },
+  "jump_trading_market_making": {
+    "entity": "Jump Trading Market Making",
+    "addresses": [],
+    "note": "Individual addresses not exposed via entity aggregation",
+    "holdings_usd": {
+      "JUP": 123453, "BONK": 610, "WIF": 3, "PYTH": 1536259,
+      "W": 11903, "RAY": 1768, "JTO": 2379
+    },
+    "total_usd": 1676375
+  },
+  "jump_trading": {
+    "entity": "Jump Trading / Jump Capital",
+    "addresses": [
+      "GXbJWY8H5YwvhrRYZvSWUAcGMGjR7ygUkQNwZxefgzdm",
+      "6v3snejEvRsTzeUZV2yKAcRgbxRz3iMJJgpeqJ1CxM6P",
+      "5pU7WKL47At6rHLM4CmFCSPRdT32J1LHSgPFhWGuXZqc",
+      "5CmWF9DMrcCtpuw3g1rnx9zYLX39bNwEX7dSEeaKFPPf",
+      "69GA1mJCEqyYxj57CCeamy2WGx7wM3ABEwuUFMmatu2d"
+    ],
+    "holdings_usd": {"W": 92425, "ORCA": 5, "RAY": 6057, "USDC": 2855076},
+    "total_usd": 2953563
+  },
+  "galaxy_digital": {
+    "entity": "Galaxy Digital",
+    "addresses": [],
+    "note": "Individual addresses not exposed via entity aggregation",
+    "holdings_usd": {"PYTH": 143812, "JTO": 99, "RNDR": 1888536},
+    "total_usd": 2032448
+  },
+  "cumberland_drw": {
+    "entity": "Cumberland DRW",
+    "addresses": [],
+    "note": "Individual addresses not exposed via entity aggregation",
+    "holdings_usd": {"BONK": 2564, "WIF": 28319, "PYTH": 14723, "RNDR": 13666, "PENGU": 172529},
+    "total_usd": 231802
+  },
+  "dwf_labs": {
+    "entity": "DWF Labs",
+    "addresses": ["B5dWf97VwfKumCT377Nh8rC51qoi7o5tYou3ZNzrR3P3"],
+    "note": "Not labeled by Nansen, detected via who-bought-sold activity",
+    "holdings_usd": {},
+    "total_usd": 0
+  }
+}

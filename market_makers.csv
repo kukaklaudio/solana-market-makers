@@ -1,0 +1,10 @@
+address,entity,sub_label,is_market_maker,source
+5sTQ5ih7xtctBhMXHr3f1aWdaXazWrWfoehqWdqWnTFP,Wintermute,Wintermute Market Making (Primary),true,nansen+lookonchain
+MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa,Wintermute,Wintermute Market Making (Secondary),true,nansen
+BMnT51N4iSNhWU5PyFFgWwFvN1jgaiiDr9ZHgnkm3iLJ,Wintermute,Wintermute (OTC/Holdings),false,nansen
+GXbJWY8H5YwvhrRYZvSWUAcGMGjR7ygUkQNwZxefgzdm,Jump Trading,Jump Trading,false,nansen
+6v3snejEvRsTzeUZV2yKAcRgbxRz3iMJJgpeqJ1CxM6P,Jump Trading,Jump Capital,false,nansen
+5pU7WKL47At6rHLM4CmFCSPRdT32J1LHSgPFhWGuXZqc,Jump Trading,Jump Capital,false,nansen
+5CmWF9DMrcCtpuw3g1rnx9zYLX39bNwEX7dSEeaKFPPf,Jump Trading,Jump Capital,false,nansen
+69GA1mJCEqyYxj57CCeamy2WGx7wM3ABEwuUFMmatu2d,Jump Trading,Jump Capital,false,nansen
+B5dWf97VwfKumCT377Nh8rC51qoi7o5tYou3ZNzrR3P3,DWF Labs,DWF Labs,false,nansen_who_bought_sold
