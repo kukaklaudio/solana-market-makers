@@ -1,0 +1,13 @@
+address,entity,label,source,confirmed,notes
+5sTQ5ih7xtctBhMXHr3f1aWdaXazWrWfoehqWdqWnTFP,Wintermute,Market Maker,nansen,true,Primary MM wallet
+MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa,Wintermute,Market Making,nansen,true,Secondary MM wallet - $413M+ vol on WETH
+BMnT51N4iSNhWU5PyFFgWwFvN1jgaiiDr9ZHgnkm3iLJ,Wintermute,OTC/Trading,nansen,true,$182M+ across TRUMP/RAY/MEW/RENDER/WIF/ORCA/FARTCOIN/BONK
+HwDkuDCUipJHHKodBBCjffFvrjhmd4iVVh7fq25fShvt,DWF Labs,Secondary Market,public_disclosure,true,Officially disclosed May 2025 by Andrei Grachev
+B5dWf97VwfKumCT377Nh8rC51qoi7o5tYou3ZNzrR3P3,DWF Labs,Suspected MM,nansen,suspected,Nansen entity label
+DwF9w6BKa6aTRm5uGw92nN2PBsU2NV3fJv56MveTEu5R,DWF Labs,Suspected MM,nansen,suspected,Nansen entity label
+GXbJWY8H5YwvhrRYZvSWUAcGMGjR7ygUkQNwZxefgzdm,Jump Trading,Trading,nansen,true,$2.4M USDC
+6v3snejEvRsTzeUZV2yKAcRgbxRz3iMJJgpeqJ1CxM6P,Jump Capital,Fund,nansen,true,Fund wallet
+5pU7WKL47At6rHLM4CmFCSPRdT32J1LHSgPFhWGuXZqc,Jump Capital,Fund,nansen,true,Fund wallet
+5CmWF9DMrcCtpuw3g1rnx9zYLX39bNwEX7dSEeaKFPPf,Jump Capital,Fund,nansen,true,Fund wallet
+69GA1mJCEqyYxj57CCeamy2WGx7wM3ABEwuUFMmatu2d,Jump Capital,Fund,nansen,true,Fund wallet
+YubFizptp3MXUAtZmqkRS9DyCkMeZaVwiaRCGBTxayo,Unknown (suspected MM),Trading Bot,nansen,suspected,$610M TRUMP vol - 99% buy/sell ratio
