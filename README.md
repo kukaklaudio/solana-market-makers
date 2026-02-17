@@ -102,3 +102,39 @@ If you know of additional MM wallets on Solana, please open an issue or PR with 
 ## License
 
 MIT — data compiled from public blockchain analytics for research purposes.
+
+## Smaller / Emerging Market Makers on Solana
+
+Based on web research, these are active smaller MMs on Solana but their wallet addresses are not publicly labeled:
+
+| Entity | Status | Notes |
+|--------|--------|-------|
+| **Gotbit** | CEO arrested (Oct 2024) | FBI sting operation; wallets likely seized; was major Solana memecoin MM |
+| **Kairon Labs** | Active | Belgium-based; CEX-focused, minimal on-chain footprint |
+| **Flowdesk** | Active | French MM; growing presence but no public Solana addresses |
+| **Folkvang** | Active | Known for derivatives; limited Solana DEX activity |
+| **Selini Capital** | Active | Smaller player; no public addresses |
+| **Bastion Trading** | Active | OTC-focused |
+| **CMS Holdings** | Active (VC/MM hybrid) | Investment + market making |
+
+### Prop AMMs on Solana (On-chain Market Making)
+From Figment research (Oct 2025):
+- **SolFi** — proprietary AMM absorbing significant Solana volume
+- **Humidifi** — prop AMM with lower slippage
+- **Tessera V** — prop AMM with optimized routing
+
+### Suspected Unlabeled MM Wallets
+| Address | Evidence | Tokens | Volume |
+|---------|----------|--------|--------|
+| `YubFizptp3MXUAtZmqkRS9DyCkMeZaVwiaRCGBTxayo` | $610M vol, 99% balanced, "Trading Bot" label | TRUMP | $610M/30d |
+| `4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS` | $6.9M vol, 97% balanced, "Token Millionaire" | TRUMP | $6.9M/30d |
+| `CreQJ2t94QK5dsxUvYn5PJKpDHDRGizp58Rqho3aE2h3` | $7.2M vol, 98% balanced, "SOL Millionaire" | BOME | $7.2M/30d |
+| `GJvewfRjqTUPtx6WsBSUnaFbdgXwgXnWfpDyLm65T4YA` | Appears in BONK + SPX with high balanced volume | BONK, SPX | $4M+/30d |
+| `CvGgoUiELpSceMBLRgBJBkYxvELmvMoDc9eCefm9hhYZ` | $7.2M vol, 79% balanced on WETH | WETH | $7.2M/30d |
+| `B21oTRzqWNLwfamqpfPjrq4F5jDLGEY1iVYoR7aGS7EB` | $4.6M vol, 85% balanced on WETH | WETH | $4.6M/30d |
+| `Fe7SEekiKygziaEGVB6Jj2i88t8HSSPjVrUoE9N5TiN2` | SwissBorg wallet, 90% balanced | SPX | $0.3M/30d |
+
+### Other Institutional Wallets Detected
+| Address | Label | Notes |
+|---------|-------|-------|
+| `Fe7SEekiKygziaEGVB6Jj2i88t8HSSPjVrUoE9N5TiN2` | SwissBorg: Wallet | Swiss crypto bank |
