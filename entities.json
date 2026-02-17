@@ -2,277 +2,346 @@
   "market_makers": [
     {
       "entity": "Galaxy Digital",
-      "total_usd": 131978123.86969054,
+      "total_usd": 131978438,
+      "tokens_active": 10,
       "holdings": {
-        "PYTH": 143812,
-        "JTO": 99,
+        "jitoSOL": 128037123,
         "RNDR": 1888536,
-        "jitoSOL": 128037123.11393365,
-        "POPCAT": 20447.75699105145,
-        "RENDER": 1881227.607953684,
-        "TRUMP": 19.73508224960142,
-        "PNUT": 6858.655729901397
+        "RENDER": 1881228,
+        "PYTH": 143812,
+        "POPCAT": 20448,
+        "PNUT": 6859,
+        "HNT": 215,
+        "JTO": 99,
+        "JITO": 99,
+        "TRUMP": 20
       }
     },
     {
       "entity": "Wintermute Market Making",
-      "total_usd": 8981445.367770767,
+      "total_usd": 9378525,
+      "tokens_active": 26,
       "holdings": {
+        "FARTCOIN": 4785993,
         "JUP": 1004199,
-        "BONK": 276125,
-        "WIF": 248665,
-        "PYTH": 179651,
+        "jitoSOL": 685570,
         "W": 568992,
-        "JTO": 21234,
-        "RNDR": 187337,
+        "HNT": 313163,
+        "BONK": 276125,
         "PENGU": 267172,
-        "jitoSOL": 685570.4226543269,
-        "DRIFT": 56274.62986200355,
-        "TENSOR": 12.521784685056929,
-        "POPCAT": 42013.327865057814,
-        "WEN": 88.36897406200906,
-        "GRASS": 115849.82334848562,
-        "IO": 27.21529110965839,
-        "RENDER": 184628.82302190765,
-        "FARTCOIN": 4785992.747275985,
-        "AI16Z": 1.0835765825187715,
-        "TRUMP": 263932.7142225298,
-        "TNSR": 12.521784685056929,
-        "ZEUS": 6.974662105775795,
-        "PNUT": 93659.1934472411
-      }
-    },
-    {
-      "entity": "Wintermute",
-      "total_usd": 2126678.3422090975,
-      "holdings": {
-        "JUP": 113144,
-        "BONK": 108750,
-        "WIF": 118377,
-        "PYTH": 37253,
-        "ORCA": 123603,
-        "RNDR": 18082,
-        "PENGU": 84274,
-        "DRIFT": 42387.906485653686,
-        "POPCAT": 37291.124495963806,
-        "MEW": 57260.4063976924,
-        "BOME": 36400.228888754275,
-        "GRASS": 1128.594959070473,
-        "RENDER": 15596.889891756058,
-        "FARTCOIN": 197489.11666694135,
-        "TRUMP": 924495.9301618073,
-        "KMNO": 35111.70224440098,
-        "PNUT": 176033.44201705698
+        "TRUMP": 263933,
+        "WIF": 248665,
+        "RNDR": 187337,
+        "RENDER": 184629,
+        "PYTH": 179651,
+        "GRASS": 115850,
+        "PNUT": 93659,
+        "JITO": 83896,
+        "DRIFT": 56275,
+        "POPCAT": 42013,
+        "JTO": 21234,
+        "WEN": 88,
+        "IO": 27,
+        "TENSOR": 13,
+        "TNSR": 13,
+        "ACCESS": 10,
+        "BSOL": 10,
+        "ZEUS": 7,
+        "AI16Z": 1
       }
     },
     {
       "entity": "Jump Trading Market Making",
-      "total_usd": 1878338.7897673738,
+      "total_usd": 2150581,
+      "tokens_active": 15,
       "holdings": {
-        "JUP": 123453,
-        "BONK": 610,
-        "WIF": 3,
         "PYTH": 1536259,
+        "mSOL": 201918,
+        "MSOL": 201918,
+        "JUP": 123453,
+        "NEON": 67886,
         "W": 11903,
-        "RAY": 1768,
         "JTO": 2379,
-        "mSOL": 201918.29100622822,
-        "MEW": 42.658445837060924,
-        "TRUMP": 2.840315308680846
+        "JITO": 2365,
+        "RAY": 1768,
+        "BONK": 610,
+        "HNT": 62,
+        "MEW": 43,
+        "MPLX": 11,
+        "WIF": 3,
+        "TRUMP": 3
+      }
+    },
+    {
+      "entity": "Wintermute",
+      "total_usd": 2126680,
+      "tokens_active": 18,
+      "holdings": {
+        "TRUMP": 924496,
+        "FARTCOIN": 197489,
+        "PNUT": 176033,
+        "ORCA": 123603,
+        "WIF": 118377,
+        "JUP": 113144,
+        "BONK": 108750,
+        "PENGU": 84274,
+        "MEW": 57260,
+        "DRIFT": 42388,
+        "POPCAT": 37291,
+        "PYTH": 37253,
+        "BOME": 36400,
+        "KMNO": 35112,
+        "RNDR": 18082,
+        "RENDER": 15597,
+        "GRASS": 1129,
+        "MEAN": 2
       }
     },
     {
       "entity": "Cumberland DRW",
-      "total_usd": 322396.20008826355,
+      "total_usd": 322396,
+      "tokens_active": 12,
       "holdings": {
-        "BONK": 2564,
-        "WIF": 28319,
-        "PYTH": 14723,
-        "RNDR": 13666,
         "PENGU": 172529,
-        "jitoSOL": 155.04066303212778,
-        "POPCAT": 423.2769765774289,
-        "MEW": 16206.81325605468,
-        "RENDER": 13613.590863649284,
-        "FARTCOIN": 13874.980516135282,
-        "TRUMP": 35289.03542656064,
-        "PNUT": 11032.462386254136
+        "TRUMP": 35289,
+        "WIF": 28319,
+        "MEW": 16207,
+        "PYTH": 14723,
+        "FARTCOIN": 13875,
+        "RNDR": 13666,
+        "RENDER": 13614,
+        "PNUT": 11032,
+        "BONK": 2564,
+        "POPCAT": 423,
+        "jitoSOL": 155
       }
     },
     {
       "entity": "Jump Trading",
-      "total_usd": 98488.64259198574,
+      "total_usd": 98563,
+      "tokens_active": 6,
       "holdings": {
         "W": 92425,
-        "ORCA": 5,
         "RAY": 6057,
-        "TRUMP": 1.64259198574314
+        "SBR": 55,
+        "PORT": 20,
+        "ORCA": 5,
+        "TRUMP": 2
       }
     },
     {
       "entity": "Alameda Research",
-      "total_usd": 9153.747208680483,
+      "total_usd": 40112,
+      "tokens_active": 2,
       "holdings": {
-        "INF": 9153.747208680483
+        "SHDW": 30958,
+        "INF": 9154
       }
     },
     {
       "entity": "DWF Labs",
-      "total_usd": 170.47268991889874,
+      "total_usd": 170,
+      "tokens_active": 1,
       "holdings": {
-        "jitoSOL": 170.47268991889874
+        "jitoSOL": 170
       }
     },
     {
       "entity": "Flowdesk",
-      "total_usd": 28.823550379257973,
+      "total_usd": 29,
+      "tokens_active": 2,
       "holdings": {
-        "GRASS": 4.524375726100418,
-        "TRUMP": 24.299174653157554
+        "TRUMP": 24,
+        "GRASS": 5
       }
     }
   ],
   "funds": [
     {
+      "entity": "Jump Capital",
+      "total_usd": 3431976,
+      "tokens_active": 7,
+      "holdings": {
+        "MPLX": 903828,
+        "USDC": 743508,
+        "NEON": 714112,
+        "DRIFT": 595180,
+        "JUP": 467124,
+        "PORT": 8220,
+        "TRUMP": 3
+      }
+    },
+    {
       "entity": "Sigil Fund",
-      "total_usd": 2761092.166737832,
+      "total_usd": 3354034,
+      "tokens_active": 8,
       "holdings": {
         "USDC": 851295,
-        "JUP": 627651,
-        "mSOL": 684668.5023873068,
-        "jitoSOL": 445116.1230257994,
-        "HONEY": 152358.7694507502,
-        "TRUMP": 2.771873975941549
-      }
-    },
-    {
-      "entity": "Jump Capital",
-      "total_usd": 1805815.6393688486,
-      "holdings": {
-        "USDC": 743508,
-        "JUP": 467124,
-        "DRIFT": 595180.2857435443,
-        "TRUMP": 3.3536253042255777
-      }
-    },
-    {
-      "entity": "a16z",
-      "total_usd": 846831.8192458573,
-      "holdings": {
-        "PNUT": 846831.8192458573
+        "mSOL": 684669,
+        "MSOL": 684669,
+        "HNT": 535905,
+        "jitoSOL": 445116,
+        "HONEY": 152359,
+        "MPLX": 19,
+        "TRUMP": 3
       }
     },
     {
       "entity": "Borderless Capital",
-      "total_usd": 565264.8630682266,
+      "total_usd": 1639355,
+      "tokens_active": 7,
       "holdings": {
+        "HNT": 822382,
+        "jitoSOL": 381450,
+        "NATIX": 251708,
+        "RENDER": 181738,
         "USDC": 2068,
-        "JUP": 0,
-        "jitoSOL": 381450.39683881076,
-        "WEN": 5.185807373395467,
-        "RENDER": 181737.61881074094,
-        "TRUMP": 3.6616113015524165
+        "WEN": 5,
+        "TRUMP": 4
+      }
+    },
+    {
+      "entity": "a16z",
+      "total_usd": 846832,
+      "tokens_active": 1,
+      "holdings": {
+        "PNUT": 846832
       }
     },
     {
       "entity": "Hypersphere Ventures",
       "total_usd": 223542,
+      "tokens_active": 1,
       "holdings": {
         "USDC": 223542
       }
     },
     {
+      "entity": "Defiance Capital",
+      "total_usd": 46490,
+      "tokens_active": 3,
+      "holdings": {
+        "JUP": 16565,
+        "MPLX": 16300,
+        "SHDW": 13625
+      }
+    },
+    {
       "entity": "LVT Capital",
-      "total_usd": 38450.20533621356,
+      "total_usd": 40023,
+      "tokens_active": 10,
       "holdings": {
         "JUP": 30654,
-        "DRIFT": 1220.6364992122938,
-        "TENSOR": 1285.0529871195936,
-        "POPCAT": 282.190770750693,
-        "HONEY": 472.1612475393717,
-        "RENDER": 3162.649654520426,
-        "AI16Z": 88.46118995159337,
-        "TNSR": 1285.0529871195936
+        "RENDER": 3163,
+        "TENSOR": 1285,
+        "TNSR": 1285,
+        "DRIFT": 1221,
+        "JITO": 1113,
+        "HONEY": 472,
+        "HNT": 460,
+        "POPCAT": 282,
+        "AI16Z": 88
+      }
+    },
+    {
+      "entity": "Moonrock Capital",
+      "total_usd": 31578,
+      "tokens_active": 2,
+      "holdings": {
+        "NATIX": 26217,
+        "USDC": 5361
       }
     },
     {
       "entity": "Framework Ventures",
       "total_usd": 27903,
+      "tokens_active": 1,
       "holdings": {
         "USDC": 27903
       }
     },
     {
-      "entity": "Defiance Capital",
-      "total_usd": 16565,
-      "holdings": {
-        "JUP": 16565
-      }
-    },
-    {
       "entity": "Infinity Ventures Crypto",
-      "total_usd": 15322.934355861687,
+      "total_usd": 15454,
+      "tokens_active": 2,
       "holdings": {
-        "ZEUS": 15322.934355861687
+        "ZEUS": 15323,
+        "GENE": 131
       }
     },
     {
       "entity": "Master Ventures",
-      "total_usd": 10422.276622127138,
+      "total_usd": 10422,
+      "tokens_active": 2,
       "holdings": {
-        "POPCAT": 3059.673858482871,
-        "FARTCOIN": 7362.602763644268
+        "FARTCOIN": 7363,
+        "POPCAT": 3060
       }
     },
     {
-      "entity": "Moonrock Capital",
-      "total_usd": 5361,
+      "entity": "6th Man Ventures",
+      "total_usd": 6804,
+      "tokens_active": 1,
       "holdings": {
-        "USDC": 5361
+        "MPLX": 6804
+      }
+    },
+    {
+      "entity": "DevmonsGG",
+      "total_usd": 3708,
+      "tokens_active": 1,
+      "holdings": {
+        "JUP": 3708
       }
     },
     {
       "entity": "Axia8 Ventures",
-      "total_usd": 3334.9905156468976,
+      "total_usd": 3335,
+      "tokens_active": 1,
       "holdings": {
-        "ZEUS": 3334.9905156468976
+        "ZEUS": 3335
       }
     },
     {
       "entity": "Kenetic Capital",
-      "total_usd": 2422.416041231892,
+      "total_usd": 2422,
+      "tokens_active": 3,
       "holdings": {
         "USDC": 2154,
-        "RENDER": 110.87005614816002,
-        "AI16Z": 157.54598508373186
+        "AI16Z": 158,
+        "RENDER": 111
       }
     },
     {
       "entity": "DWF Labs",
-      "total_usd": 170.47268991889874,
+      "total_usd": 170,
+      "tokens_active": 1,
       "holdings": {
-        "jitoSOL": 170.47268991889874
+        "jitoSOL": 170
       }
     },
     {
       "entity": "Folius Ventures",
-      "total_usd": 129.81579857367768,
+      "total_usd": 130,
+      "tokens_active": 1,
       "holdings": {
-        "DRIFT": 129.81579857367768
+        "DRIFT": 130
       }
     },
     {
       "entity": "Bonk Labs",
-      "total_usd": 14.219481945686974,
+      "total_usd": 14,
+      "tokens_active": 1,
       "holdings": {
-        "MEW": 14.219481945686974
+        "MEW": 14
       }
     },
     {
       "entity": "Exodia Capital",
-      "total_usd": 2.251074022593957,
+      "total_usd": 2,
+      "tokens_active": 1,
       "holdings": {
-        "POPCAT": 2.251074022593957
+        "POPCAT": 2
       }
     }
   ]
