@@ -1,0 +1,18 @@
+address,label,relation,seed_entity,chain
+5VCwKtCXgCJ6kit5FybXjvriW3xELsFkRkHBiwmR5JBJ,OKX,First Funder,Wintermute,solana
+6ZRCB7AAqGre6c72PRz3MHLC73VMYvbt1djHcPcEH4zu,FTX Main Wallet,First Funder,Jump Trading,solana
+0xf22981c5bf0a717c98781af04fdc8213fa789f1c,Jump Trading,Bridged from Ethereum,Jump Trading,ethereum
+0xf8aae8d5dd1d7697a4ec6f561737e68a2ab8539e,Jump Trading,Bridged from Ethereum,Jump Trading,ethereum
+AvYDLwEyk66Ric9im8vNWDfRU5hGoErQTeQAVLvgA1Q2,Market Maker Bot,Deployed Program,Jump Trading,solana
+GpjfQfUr2Zwcv91cRspDZhkNuGyzBKi5w7Pjti47zvzd,Orca Whirlpool Position,Deployed Program,Jump Trading,solana
+9KisVQLSSoJBaV2GamrZojQmzyrMsaL6iJtNeBwCjuuY,Orca Whirlpool Position,Deployed Program,Jump Trading,solana
+CNz5jNqunRH4STCMENrQkxDibhzeXRKq1Hmi5h7yB1xb,Raydium CLMM Position,Deployed Program,Jump Trading,solana
+3YqcfrQrwZAVbfU1U1PZ2VDB88gJiwRNgGT2SA9H9tHj,Raydium CLMM Position,Deployed Program,Jump Trading,solana
+74MHCRFUvgVavuk5q6VDdAZfHMQN2xN5NAntuoJUCwhp,Orca Whirlpool Position,Deployed Program,Jump Trading,solana
+5JnFzWFT9BB9JzaWLSg9rnfVKzJs3Cn5oYWVoJXu9r2n,Unknown (Wintermute sub),First Funder,Wintermute OTC,solana
+9ZC8JMqxQJrkwJwJDmbVPqw35xqHjLBmgqRpTiB4EKHX,Unknown (DWF sub),First Funder,DWF Labs,solana
+0xdb5ac83c137321da29a59a7592232bc4ed461730,Framework Ventures,Bridged from Ethereum,Framework Ventures,ethereum
+EmhH92KmdXmFEHE4AWZgwbigb4pFnbvB9cc2EFo9cB1g,Defiance Capital,First Funder,Defiance Capital,solana
+EsqEkirkY6s1RPsb3YaJZcP4APQz77BWmBAVCsbNNhpj,Sigil Fund,First Funder,Sigil Fund,solana
+7jM3NBhA5h6JDrSeAUu9a1SzL18ZRhgy4WJafEKGydVc,Borderless Capital,First Funder,Borderless Capital,solana
+2snHHreXbpJ7UwZxPe37gnUNf7Wx7wJY4RPDhYQo5CXq,Bridge Taker,First Funder,Hypersphere Ventures,solana
