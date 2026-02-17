@@ -1,116 +1,104 @@
-# Solana Market Makers & Funds — Address Directory
+# Solana Market Makers & Institutional Wallets
 
-Curated list of **market maker and fund wallet addresses on Solana**, sourced from [Nansen](https://nansen.ai) API (65 tokens scanned), public on-chain reports, and Lookonchain data.
+Mapping market makers, funds, and institutional players on Solana using on-chain analytics.
 
-## 📊 Files
+## Data Sources
+- **Nansen API** (paid, 30K credits) — Smart Money labels, entity aggregation, who-bought-sold, DEX trades, flow intelligence
+- **Public disclosures** — Official wallet announcements (e.g., DWF Labs May 2025)
+- **Arkham Intelligence** — Entity research (requires paid API for direct wallet extraction)
 
-| File | Description |
-|---|---|
-| [`market_makers.csv`](./market_makers.csv) | Individual MM wallet addresses (11 addresses, 4 entities) |
-| [`funds.csv`](./funds.csv) | VC/Fund wallet addresses (19+ addresses, 10 entities) |
-| [`exchanges.csv`](./exchanges.csv) | Top exchange wallets on Solana (10 addresses) |
-| [`entities.json`](./entities.json) | Aggregated entity holdings across 44 Solana tokens |
+## Methodology
+1. **Entity Scan (Phase 1)**: Scanned 65 Solana tokens via Nansen TGM holders with `aggregate_by_entity: true`
+2. **Address Extraction (Phase 2)**: Used `who-bought-sold` endpoint with 30-day windows across tokens
+3. **Label Verification (Phase 3)**: Cross-referenced via Nansen profiler and smart money labels
+4. **Public Source Cross-reference (Phase 4)**: Web research for officially disclosed addresses
+5. **MM Pattern Detection (Phase 5)**: Identified high-volume wallets with balanced buy/sell ratios (70-130%)
 
-## 🏦 Market Makers (9 entities)
+## Confirmed Market Makers on Solana
 
-| Entity | Total Holdings | Tokens Active | Individual Addresses |
-|---|---|---|---|
-| **Galaxy Digital** | $131.9M | 10 | entity-level only |
-| **Wintermute Market Making** | $9.4M | 26 | ✅ 2 addresses |
-| **Jump Trading Market Making** | $2.15M | 15 | entity-level only |
-| **Wintermute (OTC)** | $2.1M | 18 | ✅ 1 address |
-| **Cumberland DRW** | $322K | 12 | entity-level only |
-| **Jump Trading** | $99K | 6 | ✅ 5 addresses |
-| **Alameda Research** | $40K | 2 | entity-level only |
-| **DWF Labs** | $170 | 1 | ✅ 2 addresses |
-| **Flowdesk** | $29 | 2 | entity-level only |
+### Wintermute ✅ (3 wallets confirmed)
+| Address | Role | 30d Volume |
+|---------|------|-----------|
+| `5sTQ5ih7xtctBhMXHr3f1aWdaXazWrWfoehqWdqWnTFP` | Primary MM | Major |
+| `MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa` | Market Making | $413M+ (WETH alone) |
+| `BMnT51N4iSNhWU5PyFFgWwFvN1jgaiiDr9ZHgnkm3iLJ` | OTC/Trading | $182M+ across 6+ tokens |
 
-### Key Wintermute Addresses
-\`\`\`
-5sTQ5ih7xtctBhMXHr3f1aWdaXazWrWfoehqWdqWnTFP  — Primary MM wallet (confirmed ✅)
-MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa   — Secondary MM wallet (confirmed ✅)
-BMnT51N4iSNhWU5PyFFgWwFvN1jgaiiDr9ZHgnkm3iLJ  — OTC/Holdings wallet
-\`\`\`
+### DWF Labs ✅ (1 official + 2 suspected)
+| Address | Role | Source |
+|---------|------|--------|
+| `HwDkuDCUipJHHKodBBCjffFvrjhmd4iVVh7fq25fShvt` | Secondary Market Purchases | Officially disclosed by Andrei Grachev (May 2025) |
+| `B5dWf97VwfKumCT377Nh8rC51qoi7o5tYou3ZNzrR3P3` | Suspected MM | Nansen entity label |
+| `DwF9w6BKa6aTRm5uGw92nN2PBsU2NV3fJv56MveTEu5R` | Suspected MM | Nansen entity label |
 
-### Key Jump Trading Addresses
-\`\`\`
-GXbJWY8H5YwvhrRYZvSWUAcGMGjR7ygUkQNwZxefgzdm  — Jump Trading (USDC: $2.4M)
-6v3snejEvRsTzeUZV2yKAcRgbxRz3iMJJgpeqJ1CxM6P  — Jump Capital
-5pU7WKL47At6rHLM4CmFCSPRdT32J1LHSgPFhWGuXZqc  — Jump Capital
-5CmWF9DMrcCtpuw3g1rnx9zYLX39bNwEX7dSEeaKFPPf  — Jump Capital
-69GA1mJCEqyYxj57CCeamy2WGx7wM3ABEwuUFMmatu2d  — Jump Capital
-\`\`\`
+### Jump Trading / Jump Capital ✅ (5 wallets)
+| Address | Entity | Notes |
+|---------|--------|-------|
+| `GXbJWY8H5YwvhrRYZvSWUAcGMGjR7ygUkQNwZxefgzdm` | Jump Trading | $2.4M USDC |
+| `6v3snejEvRsTzeUZV2yKAcRgbxRz3iMJJgpeqJ1CxM6P` | Jump Capital | Fund wallet |
+| `5pU7WKL47At6rHLM4CmFCSPRdT32J1LHSgPFhWGuXZqc` | Jump Capital | Fund wallet |
+| `5CmWF9DMrcCtpuw3g1rnx9zYLX39bNwEX7dSEeaKFPPf` | Jump Capital | Fund wallet |
+| `69GA1mJCEqyYxj57CCeamy2WGx7wM3ABEwuUFMmatu2d` | Jump Capital | Fund wallet |
 
-## 💰 Funds / VCs (19 entities)
+## Unidentified High-Volume Wallets (Suspected MMs)
 
-| Entity | Total Holdings | Tokens | Addresses |
-|---|---|---|---|
-| **Jump Capital** | $3.43M | 7 | ✅ 5 addresses |
-| **Sigil Fund** | $3.35M | 8 | ✅ 3 addresses |
-| **Borderless Capital** | $1.64M | 7 | ✅ 2 addresses |
-| **a16z** | $847K | 1 | entity-level only |
-| **Hypersphere Ventures** | $224K | 1 | ✅ 1 address |
-| **Defiance Capital** | $46K | 3 | ✅ 1 address |
-| **LVT Capital** | $40K | 10 | ✅ 3 addresses |
-| **Moonrock Capital** | $32K | 2 | ✅ 1 address |
-| **Framework Ventures** | $28K | 1 | ✅ 1 address |
-| **Infinity Ventures Crypto** | $15K | 2 | entity-level |
-| **Master Ventures** | $10K | 2 | entity-level |
-| **6th Man Ventures** | $7K | 1 | entity-level |
-| **DevmonsGG** | $4K | 1 | ✅ 1 address |
-| **Axia8 Ventures** | $3K | 1 | entity-level |
-| **Kenetic Capital** | $2K | 3 | ✅ 1 address |
-| **Folius Ventures** | $130 | 1 | entity-level |
-| + 3 more small entities | | | |
+| Address | 30d Volume | Buy/Sell Ratio | Label |
+|---------|-----------|----------------|-------|
+| `YubFizptp3MXUAtZmqkRS9DyCkMeZaVwiaRCGBTxayo` | $610M (TRUMP) | 99% | "Trading Bot" — likely unlabeled MM |
+| `4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS` | $6.9M (TRUMP) | 97% | "Token Millionaire" |
 
-## 🔧 Methodology
+## MMs NOT Found on Solana (as of Feb 2026)
 
-**65 Solana tokens scanned** via Nansen TGM Holders API across 3 waves:
+These major crypto market makers were searched but no labeled Solana wallets were found:
 
-**Wave 1 (10 tokens):** USDC, JUP, BONK, WIF, PYTH, W, ORCA, RAY, JTO, RNDR, PENGU
+| Entity | Status | Notes |
+|--------|--------|-------|
+| **GSR Markets** | Arkham shows holdings (JTO $28M, RENDER $3.7M, TNSR $2.8M as of Oct 2024) but no Nansen labels | Likely uses unlabeled wallets |
+| **Keyrock** | Not found | May operate primarily via CEX |
+| **Auros** | Not found | May operate primarily via CEX |
+| **B2C2** | Not found | OTC-focused, may not have on-chain presence |
+| **FalconX** | Not found | May operate primarily via CEX |
+| **Amber Group** | Not found | May operate primarily via CEX |
+| **Cumberland/DRW** | Not found | OTC-focused, SEC lawsuit may have reduced on-chain activity |
 
-**Wave 2 (25 tokens):** mSOL, jitoSOL, DRIFT, TENSOR, INF, POPCAT, MEW, BOME, WEN, MOBILE, HONEY, GRASS, IO, RENDER, FARTCOIN, AI16Z, TRUMP, STEP, MNDE, SAMO, KMNO, PRCL, ZEUS, PNUT, TNSR
+## Institutional Funds Detected
 
-**Wave 3 (30 tokens):** USDT, JITO, HNT, MSOL, BSOL, LDO, LINK, NEON, SLND, MSRM, UXDO, BLZE, GMT, AUDIT, DFL, MPLX, NATIX, PARCL, ACCESS, TBTC, DUAL, SHDW, MEAN, C98, PORT, PRISM, GENE, SLIM, COPE, SBR
+Entities found via Nansen entity aggregation across 65 tokens:
+- Galaxy Digital ($130M+ in jitoSOL)
+- Alameda Research (defunct, residual holdings)
+- Sigil Fund
+- Borderless Capital
+- Defiance Capital
+- Moonrock Capital
+- 6th Man Ventures
+- LVT Capital
+- Infinity Ventures Crypto
 
-**Endpoints used:**
-1. \`POST /api/v1/tgm/holders\` with \`aggregate_by_entity: true\` — entity discovery
-2. \`POST /api/v1/tgm/who-bought-sold\` — individual address extraction
-3. \`POST /api/beta/profiler/address/labels\` — label verification
-4. \`POST /api/v1/smart-money/dex-trades\` — trade activity
-5. \`POST /api/v1/smart-money/holdings\` — smart money token holdings
-6. \`POST /api/v1/tgm/dex-trades\` — token-specific DEX trades
-7. \`POST /api/v1/tgm/flows\` — token flow analysis
+## Tokens Scanned (65 total)
 
-## 🔍 Notable Findings
+### Wave 1-2 (35 tokens)
+SOL, USDC, JUP, BONK, jitoSOL, JITO, PYTH, WIF, FARTCOIN, POPCAT, MEW, TRUMP, RAY, ORCA, MANGO, DRIFT, RENDER, TNSR, W, HNT, STEP, MNDE, WBTC, MSOL, BSOL, and more
 
-- **Galaxy Digital** holds **$128M+ in jitoSOL** — massive Solana staking position
-- **Wintermute** is the most active MM across **26 tokens** including $4.8M in FARTCOIN and $1.2M in TRUMP
-- **Jump Trading MM** has $1.5M concentrated in **PYTH**
-- **Alameda Research** (FTX) still has $40K in tokens (INF, SHDW)
-- **Flowdesk** has minimal on-chain Solana presence ($29 total)
+### Wave 3 (30 tokens)
+USDT, JITO, HNT, MSOL, BSOL, LDO, LINK, NEON, SLND, MSRM, UXDO, BLZE, GMT, AUDIT, DFL, MPLX, NATIX, PARCL, ACCESS, TBTC, DUAL, SHDW, MEAN, C98, PORT, PRISM, GENE, SLIM, COPE, SBR
 
-## ⚠️ Known Gaps
+## How to Use This Data
 
-- **GSR Markets**: Not found via Nansen — may use unlabeled wallets or operate primarily via CEX
-- **Keyrock, Auros, B2C2, FalconX, Amber Group**: Not detected across 65 tokens
-- **Cumberland DRW, Galaxy Digital**: Entity-level data only, individual addresses unknown
-- MMs often rotate wallets or use CEX APIs with no on-chain footprint
+1. **Track MM activity**: Monitor confirmed addresses on [Solscan](https://solscan.io) or [Arkham](https://intel.arkm.com)
+2. **Signal detection**: Large inflows/outflows from MM wallets can signal upcoming price movements
+3. **Liquidity analysis**: Check which tokens MMs are actively trading
 
-## 🔗 Additional Resources
+## Limitations
 
-- [Arkham Market Makers Dashboard](https://intel.arkm.com/explorer/entity/wintermute) (requires Arkham account)
-- [Nansen API Docs](https://docs.nansen.ai)
-- [Lookonchain](https://lookonchain.com) — on-chain MM tracking
+- Nansen's Solana entity coverage is limited compared to Ethereum
+- Many MMs use unlabeled/rotating wallets on Solana
+- Some MMs (GSR, Keyrock) are visible on Arkham but not extractable without paid API
+- CEX-based market making is invisible on-chain
+- Data is point-in-time (Feb 2026) — wallets may change
 
-## 📅 Data Snapshot
+## Contributing
 
-- **Date**: 2026-02-17
-- **Nansen Credits Used**: ~15-18K
-- **Tokens Scanned**: 65
-- **Entities Found**: 28 (9 MMs + 19 Funds)
-- **Individual Addresses**: 40+
+If you know of additional MM wallets on Solana, please open an issue or PR with evidence.
 
-## 📜 License
+## License
 
-MIT — Data sourced from Nansen API (paid subscription). Use responsibly.
+MIT — data compiled from public blockchain analytics for research purposes.
