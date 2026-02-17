@@ -1,10 +1,11 @@
-address,entity,sub_label,is_market_maker,source
-5sTQ5ih7xtctBhMXHr3f1aWdaXazWrWfoehqWdqWnTFP,Wintermute,Wintermute Market Making (Primary),true,nansen+lookonchain
-MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa,Wintermute,Wintermute Market Making (Secondary),true,nansen
-BMnT51N4iSNhWU5PyFFgWwFvN1jgaiiDr9ZHgnkm3iLJ,Wintermute,Wintermute (OTC/Holdings),false,nansen
-GXbJWY8H5YwvhrRYZvSWUAcGMGjR7ygUkQNwZxefgzdm,Jump Trading,Jump Trading,false,nansen
-6v3snejEvRsTzeUZV2yKAcRgbxRz3iMJJgpeqJ1CxM6P,Jump Trading,Jump Capital,false,nansen
-5pU7WKL47At6rHLM4CmFCSPRdT32J1LHSgPFhWGuXZqc,Jump Trading,Jump Capital,false,nansen
-5CmWF9DMrcCtpuw3g1rnx9zYLX39bNwEX7dSEeaKFPPf,Jump Trading,Jump Capital,false,nansen
-69GA1mJCEqyYxj57CCeamy2WGx7wM3ABEwuUFMmatu2d,Jump Trading,Jump Capital,false,nansen
-B5dWf97VwfKumCT377Nh8rC51qoi7o5tYou3ZNzrR3P3,DWF Labs,DWF Labs,false,nansen_who_bought_sold
+address,entity,sub_label,is_confirmed_mm,source,tokens_active
+5sTQ5ih7xtctBhMXHr3f1aWdaXazWrWfoehqWdqWnTFP,Wintermute,Wintermute Market Making (Primary),true,nansen+lookonchain,SOL/USDC
+MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa,Wintermute,Wintermute Market Making (Secondary),true,nansen,"POPCAT/FARTCOIN/TRUMP/PNUT/JUP/BONK/WIF/PYTH/W/JTO/RNDR/PENGU/DRIFT/TENSOR/GRASS/IO/AI16Z/ZEUS/KMNO"
+BMnT51N4iSNhWU5PyFFgWwFvN1jgaiiDr9ZHgnkm3iLJ,Wintermute,Wintermute OTC/Holdings,false,nansen,"DRIFT/MEW/BOME/GRASS/RENDER/FARTCOIN/TRUMP/KMNO/PNUT/JUP/BONK/WIF/PYTH/ORCA/RNDR/PENGU"
+GXbJWY8H5YwvhrRYZvSWUAcGMGjR7ygUkQNwZxefgzdm,Jump Trading,Jump Trading,false,nansen,USDC
+6v3snejEvRsTzeUZV2yKAcRgbxRz3iMJJgpeqJ1CxM6P,Jump Trading,Jump Capital,false,nansen,USDC/JUP
+5pU7WKL47At6rHLM4CmFCSPRdT32J1LHSgPFhWGuXZqc,Jump Trading,Jump Capital,false,nansen,USDC/JUP
+5CmWF9DMrcCtpuw3g1rnx9zYLX39bNwEX7dSEeaKFPPf,Jump Trading,Jump Capital,false,nansen,JUP
+69GA1mJCEqyYxj57CCeamy2WGx7wM3ABEwuUFMmatu2d,Jump Trading,Jump Capital,false,nansen,JUP
+B5dWf97VwfKumCT377Nh8rC51qoi7o5tYou3ZNzrR3P3,DWF Labs,DWF Labs,false,nansen_wbs,unknown
+DwF9w6BKa6aTRm5uGw92nN2PBsU2NV3fJv56MveTEu5R,DWF Labs (suspected),DwF prefix match,false,nansen_wbs,ZEUS

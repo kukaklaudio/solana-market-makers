@@ -1,66 +1,279 @@
 {
-  "wintermute_market_making": {
-    "entity": "Wintermute Market Making",
-    "addresses": [
-      "5sTQ5ih7xtctBhMXHr3f1aWdaXazWrWfoehqWdqWnTFP",
-      "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa"
-    ],
-    "holdings_usd": {
-      "JUP": 1004199, "BONK": 276125, "WIF": 248665, "PYTH": 179651,
-      "W": 568992, "JTO": 21234, "RNDR": 187337, "PENGU": 267172
+  "market_makers": [
+    {
+      "entity": "Galaxy Digital",
+      "total_usd": 131978123.86969054,
+      "holdings": {
+        "PYTH": 143812,
+        "JTO": 99,
+        "RNDR": 1888536,
+        "jitoSOL": 128037123.11393365,
+        "POPCAT": 20447.75699105145,
+        "RENDER": 1881227.607953684,
+        "TRUMP": 19.73508224960142,
+        "PNUT": 6858.655729901397
+      }
     },
-    "total_usd": 2753375
-  },
-  "wintermute_otc": {
-    "entity": "Wintermute (OTC/Holdings)",
-    "addresses": ["BMnT51N4iSNhWU5PyFFgWwFvN1jgaiiDr9ZHgnkm3iLJ"],
-    "holdings_usd": {
-      "JUP": 113144, "BONK": 108750, "WIF": 118377, "PYTH": 37253,
-      "ORCA": 123603, "RNDR": 18082, "PENGU": 84274
+    {
+      "entity": "Wintermute Market Making",
+      "total_usd": 8981445.367770767,
+      "holdings": {
+        "JUP": 1004199,
+        "BONK": 276125,
+        "WIF": 248665,
+        "PYTH": 179651,
+        "W": 568992,
+        "JTO": 21234,
+        "RNDR": 187337,
+        "PENGU": 267172,
+        "jitoSOL": 685570.4226543269,
+        "DRIFT": 56274.62986200355,
+        "TENSOR": 12.521784685056929,
+        "POPCAT": 42013.327865057814,
+        "WEN": 88.36897406200906,
+        "GRASS": 115849.82334848562,
+        "IO": 27.21529110965839,
+        "RENDER": 184628.82302190765,
+        "FARTCOIN": 4785992.747275985,
+        "AI16Z": 1.0835765825187715,
+        "TRUMP": 263932.7142225298,
+        "TNSR": 12.521784685056929,
+        "ZEUS": 6.974662105775795,
+        "PNUT": 93659.1934472411
+      }
     },
-    "total_usd": 603484
-  },
-  "jump_trading_market_making": {
-    "entity": "Jump Trading Market Making",
-    "addresses": [],
-    "note": "Individual addresses not exposed via entity aggregation",
-    "holdings_usd": {
-      "JUP": 123453, "BONK": 610, "WIF": 3, "PYTH": 1536259,
-      "W": 11903, "RAY": 1768, "JTO": 2379
+    {
+      "entity": "Wintermute",
+      "total_usd": 2126678.3422090975,
+      "holdings": {
+        "JUP": 113144,
+        "BONK": 108750,
+        "WIF": 118377,
+        "PYTH": 37253,
+        "ORCA": 123603,
+        "RNDR": 18082,
+        "PENGU": 84274,
+        "DRIFT": 42387.906485653686,
+        "POPCAT": 37291.124495963806,
+        "MEW": 57260.4063976924,
+        "BOME": 36400.228888754275,
+        "GRASS": 1128.594959070473,
+        "RENDER": 15596.889891756058,
+        "FARTCOIN": 197489.11666694135,
+        "TRUMP": 924495.9301618073,
+        "KMNO": 35111.70224440098,
+        "PNUT": 176033.44201705698
+      }
     },
-    "total_usd": 1676375
-  },
-  "jump_trading": {
-    "entity": "Jump Trading / Jump Capital",
-    "addresses": [
-      "GXbJWY8H5YwvhrRYZvSWUAcGMGjR7ygUkQNwZxefgzdm",
-      "6v3snejEvRsTzeUZV2yKAcRgbxRz3iMJJgpeqJ1CxM6P",
-      "5pU7WKL47At6rHLM4CmFCSPRdT32J1LHSgPFhWGuXZqc",
-      "5CmWF9DMrcCtpuw3g1rnx9zYLX39bNwEX7dSEeaKFPPf",
-      "69GA1mJCEqyYxj57CCeamy2WGx7wM3ABEwuUFMmatu2d"
-    ],
-    "holdings_usd": {"W": 92425, "ORCA": 5, "RAY": 6057, "USDC": 2855076},
-    "total_usd": 2953563
-  },
-  "galaxy_digital": {
-    "entity": "Galaxy Digital",
-    "addresses": [],
-    "note": "Individual addresses not exposed via entity aggregation",
-    "holdings_usd": {"PYTH": 143812, "JTO": 99, "RNDR": 1888536},
-    "total_usd": 2032448
-  },
-  "cumberland_drw": {
-    "entity": "Cumberland DRW",
-    "addresses": [],
-    "note": "Individual addresses not exposed via entity aggregation",
-    "holdings_usd": {"BONK": 2564, "WIF": 28319, "PYTH": 14723, "RNDR": 13666, "PENGU": 172529},
-    "total_usd": 231802
-  },
-  "dwf_labs": {
-    "entity": "DWF Labs",
-    "addresses": ["B5dWf97VwfKumCT377Nh8rC51qoi7o5tYou3ZNzrR3P3"],
-    "note": "Not labeled by Nansen, detected via who-bought-sold activity",
-    "holdings_usd": {},
-    "total_usd": 0
-  }
+    {
+      "entity": "Jump Trading Market Making",
+      "total_usd": 1878338.7897673738,
+      "holdings": {
+        "JUP": 123453,
+        "BONK": 610,
+        "WIF": 3,
+        "PYTH": 1536259,
+        "W": 11903,
+        "RAY": 1768,
+        "JTO": 2379,
+        "mSOL": 201918.29100622822,
+        "MEW": 42.658445837060924,
+        "TRUMP": 2.840315308680846
+      }
+    },
+    {
+      "entity": "Cumberland DRW",
+      "total_usd": 322396.20008826355,
+      "holdings": {
+        "BONK": 2564,
+        "WIF": 28319,
+        "PYTH": 14723,
+        "RNDR": 13666,
+        "PENGU": 172529,
+        "jitoSOL": 155.04066303212778,
+        "POPCAT": 423.2769765774289,
+        "MEW": 16206.81325605468,
+        "RENDER": 13613.590863649284,
+        "FARTCOIN": 13874.980516135282,
+        "TRUMP": 35289.03542656064,
+        "PNUT": 11032.462386254136
+      }
+    },
+    {
+      "entity": "Jump Trading",
+      "total_usd": 98488.64259198574,
+      "holdings": {
+        "W": 92425,
+        "ORCA": 5,
+        "RAY": 6057,
+        "TRUMP": 1.64259198574314
+      }
+    },
+    {
+      "entity": "Alameda Research",
+      "total_usd": 9153.747208680483,
+      "holdings": {
+        "INF": 9153.747208680483
+      }
+    },
+    {
+      "entity": "DWF Labs",
+      "total_usd": 170.47268991889874,
+      "holdings": {
+        "jitoSOL": 170.47268991889874
+      }
+    },
+    {
+      "entity": "Flowdesk",
+      "total_usd": 28.823550379257973,
+      "holdings": {
+        "GRASS": 4.524375726100418,
+        "TRUMP": 24.299174653157554
+      }
+    }
+  ],
+  "funds": [
+    {
+      "entity": "Sigil Fund",
+      "total_usd": 2761092.166737832,
+      "holdings": {
+        "USDC": 851295,
+        "JUP": 627651,
+        "mSOL": 684668.5023873068,
+        "jitoSOL": 445116.1230257994,
+        "HONEY": 152358.7694507502,
+        "TRUMP": 2.771873975941549
+      }
+    },
+    {
+      "entity": "Jump Capital",
+      "total_usd": 1805815.6393688486,
+      "holdings": {
+        "USDC": 743508,
+        "JUP": 467124,
+        "DRIFT": 595180.2857435443,
+        "TRUMP": 3.3536253042255777
+      }
+    },
+    {
+      "entity": "a16z",
+      "total_usd": 846831.8192458573,
+      "holdings": {
+        "PNUT": 846831.8192458573
+      }
+    },
+    {
+      "entity": "Borderless Capital",
+      "total_usd": 565264.8630682266,
+      "holdings": {
+        "USDC": 2068,
+        "JUP": 0,
+        "jitoSOL": 381450.39683881076,
+        "WEN": 5.185807373395467,
+        "RENDER": 181737.61881074094,
+        "TRUMP": 3.6616113015524165
+      }
+    },
+    {
+      "entity": "Hypersphere Ventures",
+      "total_usd": 223542,
+      "holdings": {
+        "USDC": 223542
+      }
+    },
+    {
+      "entity": "LVT Capital",
+      "total_usd": 38450.20533621356,
+      "holdings": {
+        "JUP": 30654,
+        "DRIFT": 1220.6364992122938,
+        "TENSOR": 1285.0529871195936,
+        "POPCAT": 282.190770750693,
+        "HONEY": 472.1612475393717,
+        "RENDER": 3162.649654520426,
+        "AI16Z": 88.46118995159337,
+        "TNSR": 1285.0529871195936
+      }
+    },
+    {
+      "entity": "Framework Ventures",
+      "total_usd": 27903,
+      "holdings": {
+        "USDC": 27903
+      }
+    },
+    {
+      "entity": "Defiance Capital",
+      "total_usd": 16565,
+      "holdings": {
+        "JUP": 16565
+      }
+    },
+    {
+      "entity": "Infinity Ventures Crypto",
+      "total_usd": 15322.934355861687,
+      "holdings": {
+        "ZEUS": 15322.934355861687
+      }
+    },
+    {
+      "entity": "Master Ventures",
+      "total_usd": 10422.276622127138,
+      "holdings": {
+        "POPCAT": 3059.673858482871,
+        "FARTCOIN": 7362.602763644268
+      }
+    },
+    {
+      "entity": "Moonrock Capital",
+      "total_usd": 5361,
+      "holdings": {
+        "USDC": 5361
+      }
+    },
+    {
+      "entity": "Axia8 Ventures",
+      "total_usd": 3334.9905156468976,
+      "holdings": {
+        "ZEUS": 3334.9905156468976
+      }
+    },
+    {
+      "entity": "Kenetic Capital",
+      "total_usd": 2422.416041231892,
+      "holdings": {
+        "USDC": 2154,
+        "RENDER": 110.87005614816002,
+        "AI16Z": 157.54598508373186
+      }
+    },
+    {
+      "entity": "DWF Labs",
+      "total_usd": 170.47268991889874,
+      "holdings": {
+        "jitoSOL": 170.47268991889874
+      }
+    },
+    {
+      "entity": "Folius Ventures",
+      "total_usd": 129.81579857367768,
+      "holdings": {
+        "DRIFT": 129.81579857367768
+      }
+    },
+    {
+      "entity": "Bonk Labs",
+      "total_usd": 14.219481945686974,
+      "holdings": {
+        "MEW": 14.219481945686974
+      }
+    },
+    {
+      "entity": "Exodia Capital",
+      "total_usd": 2.251074022593957,
+      "holdings": {
+        "POPCAT": 2.251074022593957
+      }
+    }
+  ]
 }
